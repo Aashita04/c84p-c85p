@@ -99,13 +99,13 @@ function my_keydown(e) {
     if (car1_x > 700){
 
         console.log("Car1 WON");
-        document.getElementById('game_status'.innerHTML = "Car 1 Won!!");
+        document.getElementById('game_status').innerHTML = "Car 1 Won!!";
     }
 
     if (car2_x > 700){
 
         console.log("car2 won");
-        document.getElementById('game_status'.innerHTML = "Car 2 Won!!");
+        document.getElementById('game_status').innerHTML = "Car 2 Won!!";
     }
 
 }
